@@ -1,17 +1,17 @@
 # 4-Servo-Motor-Control-with-Arduino
 The second task in the Electrical engineering path
 
-# 6 Servo Motor Control with Arduino
+# 4 Servo Motor Control with Arduino
 ![Circuit](https://github.com/user-attachments/assets/5b82b5df-fa36-4ad1-bada-3e0b1b4c2049)
 
 
 
-This project demonstrates how to control 6 servo motors using an Arduino Uno. The servos sweep initially, then hold position at 90 degrees.
+This project demonstrates how to control 4 servo motors using an Arduino Uno. The servos sweep initially, then hold position at 90 degrees.
 
 ---
 
 ## Objective
-- Control 6 servo motors connected to Arduino
+- Control 4 servo motors connected to Arduino
 - Sweep all motors for 2 seconds
 - Hold all motors at 90° angle
 - Write a simple walking motion algorithm
@@ -20,14 +20,14 @@ This project demonstrates how to control 6 servo motors using an Arduino Uno. Th
 
 ## Components Used
 - Arduino Uno  
-- 6x Servo Motors  
+- 4x Servo Motors  
 - Breadboard  
 - Jumper Wires  
 
 ---
 
 ## Description
-Each servo is connected to a digital PWM pin (3, 5, 6, 9, 10, 11).  
+Each servo is connected to a digital PWM pin (6, 9, 10, 11).  
 In the setup(), we sweep each servo to 180° then return to 90°.  
 After that, the servos hold steady at 90°.
 
